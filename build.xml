@@ -28,7 +28,7 @@
 
     <!-- Shows deploying code with no TestLevel sepcified -->
     <target name="deployToFull">
-      <sf:deploy username="${sf.username}" password="${sf.password}" sessionId="${sf.sessionId}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="pkgtoUAT" rollbackOnError="true"/>
+      <sf:deploy username="${sf.username}" password="${sf.password}" sessionId="${sf.sessionId}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="src" rollbackOnError="true"/>
     </target>
 
     <target name="deployCodeCheckOnly">
